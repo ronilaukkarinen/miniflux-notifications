@@ -1,0 +1,27 @@
+{
+   "background": {
+      "page": "background.html",
+      "persistent": true
+   },
+   "browser_action": {
+      "default_icon": "img/icon.png",
+      "default_popup": "popup.html",
+      "default_title": "Miniflux Notifier"
+   },
+   "description": "Miniflux feed reader Notifications",
+   "homepage_url": "https://miniflux.net/",
+   "icons": {
+      "128": "img/icon.png",
+      "16": "img/icon.png",
+      "32": "img/icon.png",
+      "48": "img/icon.png",
+      "64": "img/icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAs173/4+/VbDRYvng/yT8BorUBe+R8T2tH7ZlzPbnOypWA+rls86sULgINRlwKi01vXKT48H2vWtVTxW2h+1QY4R9fkSjz04iRrfSvJu+miOg97QoP/bY+05pkEqPrCa/AD46v8rZK0x1Xx4nN+5k40JxdAgdpdMZNOcL4GZz+4SzudSU+jCBqFUrpVWWiSMAQjioTIazvOH0Dtq0q8itHA8OD6dZHtOj/PGTbL3+dt9cOi8CWKAgKLV8kJboETIyJbUT7CpREjtHXQ84bIsjKYpEAo5d4IBKQi/CkR/oEugiNxp+Rxa1KuKG4kzsV9azKfwXqPha1D93oWG1diMrRwIDAQAB",
+   "manifest_version": 2,
+   "name": "Miniflux Notifications",
+   "options_page": "options.html",
+   "permissions": [ "https://*/*", "http://*/*", "notifications", "storage", "alarms" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.3.4"
+}
